@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  flex-shrink: 0;
-}
 html,
 body {
   background: linear-gradient(#f7fff7, #343434);

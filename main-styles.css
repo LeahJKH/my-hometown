@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  background: linear-gradient(90deg, rgb(102, 102, 173), rgb(74, 74, 203));
+  color: rgb(241, 241, 68);
+}
+.menubtn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4vmax;
+}
+.menubtn:hover {
+  border-bottom: 4px solid rgb(114, 114, 250);
+}
+.menubtn > a {
+  text-decoration: none;
+  color: white;
+}
+.menubtn > a:hover {
+  color: rgb(241, 241, 68);
+}
