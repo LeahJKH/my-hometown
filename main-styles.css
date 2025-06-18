@@ -31,3 +31,14 @@ header {
 .menubtn > a:hover {
   color: rgb(241, 241, 68);
 }
+
+footer {
+  background-color: rgb(74, 74, 203);
+  width: 100vw;
+  height: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
