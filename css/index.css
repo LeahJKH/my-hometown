@@ -1,6 +1,29 @@
 .imgsI {
-  width: 50px;
+  width: 100%;
 }
 #myphoto {
-  width: 200px;
+  width: 700px;
+}
+#info-cont {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+.cardI {
+  background-color: rgb(114, 114, 250);
+  width: 22%;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  text-shadow: 0 0 3px black;
+  box-shadow: 0 0 3px black;
+  font-size: 1.1vmax;
+}
+article {
+  padding: 3px 10px;
 }

@@ -20,6 +20,7 @@ header {
   background-color: transparent;
   border: none;
   font-size: 1.4vmax;
+  margin-right: 7px;
 }
 .menubtn:hover {
   border-bottom: 4px solid rgb(114, 114, 250);
