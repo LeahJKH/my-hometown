@@ -12,9 +12,12 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: sticky;
+  position: fixed;
   background: linear-gradient(90deg, rgb(102, 102, 173), rgb(74, 74, 203));
   color: rgb(241, 241, 68);
+}
+main {
+  padding-top: 30px;
 }
 .menubtn {
   background-color: transparent;
@@ -42,4 +45,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: static;
+  bottom: 0;
 }

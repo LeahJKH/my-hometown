@@ -187,6 +187,7 @@ images.forEach((e) => {
   const image = document.createElement("img");
   image.src = e.src;
   image.alt = e.alt;
+  image.loading = "lazy";
   image.classList.add("imagePos");
   Container.appendChild(image);
 });

@@ -2,7 +2,7 @@
   width: 100%;
 }
 #myphoto {
-  width: 700px;
+  width: 200px;
 }
 #info-cont {
   display: flex;
@@ -26,4 +26,32 @@
 }
 article {
   padding: 3px 10px;
+}
+#cont2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px;
+}
+#self-cont {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  font-size: 1.5vmax;
+  align-items: center;
+  text-align: center;
+}
+#peoplechoice {
+  background-color: rgb(114, 114, 250);
+  color: white;
+  font-size: 1.5vmax;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+i {
+  color: rgb(241, 241, 68);
+  font-weight: 800;
 }
