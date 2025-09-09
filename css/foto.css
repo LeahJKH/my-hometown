@@ -1,3 +1,5 @@
+@import url(./theme.css);
+
 #imagesCont {
   display: flex;
   flex-direction: row;
@@ -8,5 +10,5 @@
   padding: 20px;
 }
 .imagePos {
-  width: 30%;
+  max-width: 30%;
 }

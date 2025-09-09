@@ -1,3 +1,5 @@
+@import url(./theme.css);
+
 .imgsI {
   width: 100%;
 }
@@ -10,7 +12,7 @@
   justify-content: space-around;
 }
 .cardI {
-  background-color: rgb(114, 114, 250);
+  background-color: var(--Main-color);
   width: 22%;
   aspect-ratio: 1/1;
   border-radius: 20px;
@@ -42,7 +44,7 @@ article {
   text-align: center;
 }
 #peoplechoice {
-  background-color: rgb(114, 114, 250);
+  background-color: var(--Main-color);
   color: white;
   font-size: 1.5vmax;
   width: 50%;
@@ -52,6 +54,6 @@ article {
   padding: 10px 20px;
 }
 i {
-  color: rgb(241, 241, 68);
+  color: var(--Accent-color);
   font-weight: 800;
 }

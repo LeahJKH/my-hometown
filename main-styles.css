@@ -1,3 +1,5 @@
+@import url(./css/theme.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +15,8 @@ header {
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  background: linear-gradient(90deg, rgb(102, 102, 173), rgb(74, 74, 203));
-  color: rgb(241, 241, 68);
+  background: linear-gradient(90deg, var(--Main-color), #1e3a52);
+  color: var(--Accent-color);
 }
 main {
   padding-top: 30px;
@@ -24,20 +26,21 @@ main {
   border: none;
   font-size: 1.4vmax;
   margin-right: 7px;
+  border-bottom: 4px solid var(--Main-color);
 }
 .menubtn:hover {
-  border-bottom: 4px solid rgb(114, 114, 250);
+  border-bottom: 4px solid var(--Accent-color);
 }
 .menubtn > a {
   text-decoration: none;
   color: white;
 }
 .menubtn > a:hover {
-  color: rgb(241, 241, 68);
+  color: var(--Accent-color);
 }
 
 footer {
-  background-color: rgb(74, 74, 203);
+  background-color: var(--Main-color);
   width: 100vw;
   height: 200px;
   color: white;
